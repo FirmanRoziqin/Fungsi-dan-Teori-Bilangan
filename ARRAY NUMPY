@@ -8,3 +8,7 @@ print(x)
 #Membuat array 2D (matriks)
 m = np.array([[a, b], [c, d]])
 print(m)
+
+#OPERASI LAIN
+print(x ** 2) #Kuadrat Tiap Element
+print(x % 2) #Modulus tiap elemen
