@@ -1,0 +1,24 @@
+#Fungsi Linear
+# f(x) = ax + b
+def f_linear(x):
+    return a*x + b
+
+for i in renge(6):
+    print(f"x = {i}, f(x) = {f_linear(i)}")
+
+#Fungsi Kubik
+# f(x) = ax^2 + bx + c
+def f_kuadrat(x):
+    return a*x**2 + b*x + c
+
+for i in range(6):
+    print(f"x = {i}, f(x) = {f_kuadrat(i)}")
+
+#FUNGSI KUBIK
+# f(x) = ax^3 - bx^2 + c
+
+def f_kubik(x):
+    return a*x**3 - b*x**2 + c
+
+for i in range(6):
+    print(f"x = {i}, f(x) = {f_kubik(i)}")
