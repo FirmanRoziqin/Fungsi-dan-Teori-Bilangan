@@ -1,0 +1,10 @@
+#MEMBUAT ARRAY NUMPY
+
+import numpy as np
+#membuat array 1D
+x = np.array([a, b, c, d, e])
+print(x)
+
+#Membuat array 2D (matriks)
+m = np.array([[a, b], [c, d]])
+print(m)
